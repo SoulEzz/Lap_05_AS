@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="1000px"
+        android:layout_height="200px"
+        android:paddingLeft="150px"
+        android:paddingBottom="20px"
+        android:paddingTop="15px"
+        android:text="The place that you will visit in the future"
+        android:textSize="20dp"
+        android:background="@drawable/duongvien_2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector_1"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="37dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="178dp"
+        android:layout_height="72dp"
+        android:background="@drawable/btn_save"
+        android:backgroundTint="@color/save"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="178dp"
+        android:layout_height="72dp"
+        android:text="Cancel"
+        android:background="@drawable/btn_save"
+        android:backgroundTint="@color/cancel"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="124dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="510dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="221dp"
+        tools:ignore="MissingConstraints"></LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
